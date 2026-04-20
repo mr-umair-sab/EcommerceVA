@@ -18,46 +18,46 @@
     </div>
 
     <!-- Contact Section -->
-    <section class="py-20 bg-gray-50">
+    <section class="py-20 bg-gray-900">
       <div class="container mx-auto px-4 md:px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <!-- Left Column: Calendly -->
-          <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-100 h-full flex flex-col">
-            <h2 class="text-2xl font-bold text-gray-900 mb-2">
+          <div class="bg-gray-800/50 backdrop-blur-sm p-6 md:p-8 rounded-3xl shadow-sm border border-gray-700 h-full flex flex-col">
+            <h2 class="text-2xl font-bold text-white mb-2">
               Book a Free Strategy Call
             </h2>
-            <p class="text-gray-600 mb-6 text-sm">
+            <p class="text-gray-400 mb-6 text-sm">
               Select a time that works for you to discuss your business goals.
             </p>
-            <CalendlyEmbed class="grow" />
+            <CalendlyEmbed class="grow bg-gray-900/50 rounded-2xl border border-gray-700" />
           </div>
 
           <!-- Right Column: Contact Form & Info -->
           <div class="space-y-8">
             <!-- Contact Form -->
-            <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-100">
-              <h2 class="text-2xl font-bold text-gray-900 mb-6">
+            <div class="bg-gray-800/50 backdrop-blur-sm p-6 md:p-8 rounded-3xl shadow-sm border border-gray-700">
+              <h2 class="text-2xl font-bold text-white mb-6">
                 Send Me a Message
               </h2>
               <!-- Formspree/EmailJS Form Action Placeholder -->
               <form class="space-y-4" @submit.prevent="submitForm">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label class="block text-sm font-bold text-gray-900 mb-1">First Name</label>
-                    <input v-model="form.firstName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none" placeholder="John">
+                    <label class="block text-sm font-bold text-gray-300 mb-1">First Name</label>
+                    <input v-model="form.firstName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white placeholder:text-gray-500 outline-none" placeholder="John">
                   </div>
                   <div>
-                    <label class="block text-sm font-bold text-gray-900 mb-1">Last Name</label>
-                    <input v-model="form.lastName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none" placeholder="Doe">
+                    <label class="block text-sm font-bold text-gray-300 mb-1">Last Name</label>
+                    <input v-model="form.lastName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white placeholder:text-gray-500 outline-none" placeholder="Doe">
                   </div>
                 </div>
                 <div>
                   <label class="block text-sm font-bold text-gray-900 mb-1">Email Address</label>
-                  <input v-model="form.email" type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none" placeholder="john@example.com">
+                  <input v-model="form.email" type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white placeholder:text-gray-500 outline-none" placeholder="john@example.com">
                 </div>
                 <div>
                   <label class="block text-sm font-bold text-gray-900 mb-1">Select Service Area</label>
-                  <select v-model="form.service" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 outline-none">
+                  <select v-model="form.service" class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white outline-none">
                     <option>Amazon FBA/FBM</option>
                     <option>eBay Dropshipping/Wholesale</option>
                     <option>PPC Campaign Management</option>
@@ -67,7 +67,7 @@
                 </div>
                 <div>
                   <label class="block text-sm font-bold text-gray-900 mb-1">Message</label>
-                  <textarea v-model="form.message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none resize-none" placeholder="Tell me about your business and goals..." />
+                  <textarea v-model="form.message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white placeholder:text-gray-500 outline-none resize-none" placeholder="Tell me about your business and goals..." />
                 </div>
                 <UButton
                   type="submit"
@@ -90,22 +90,22 @@
 
             <!-- Direct Contact Info -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a href="mailto:hello@AlishaVAPro.com" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 hover:border-amber-300 transition-colors group">
-                <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-800 group-hover:bg-amber-50 group-hover:text-amber-600 transition-colors">
+              <a href="mailto:hello@AlishaVAPro.com" class="bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-gray-700 flex items-center gap-4 hover:border-amber-500/50 transition-colors group">
+                <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center text-amber-500 group-hover:bg-amber-500 group-hover:text-white transition-colors">
                   <UIcon name="i-heroicons-envelope" class="w-6 h-6" />
                 </div>
                 <div>
-                  <p class="text-sm text-gray-900 font-bold">Email Me</p>
-                  <p class="text-gray-900 font-semibold break-all">hello@AlishaVAPro.com</p>
+                  <p class="text-sm text-gray-400 font-bold">Email Me</p>
+                  <p class="text-white font-semibold break-all">hello@AlishaVAPro.com</p>
                 </div>
               </a>
-              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 hover:border-green-300 transition-colors group">
-                <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-800 group-hover:bg-green-50 group-hover:text-green-600 transition-colors">
+              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-gray-700 flex items-center gap-4 hover:border-green-500/50 transition-colors group">
+                <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center text-green-500 group-hover:bg-green-500 group-hover:text-white transition-colors">
                   <UIcon name="i-mdi-whatsapp" class="w-6 h-6" />
                 </div>
                 <div>
-                  <p class="text-sm text-gray-900 font-bold">WhatsApp</p>
-                  <p class="text-gray-900 font-semibold whitespace-nowrap">+1 234 567 890</p>
+                  <p class="text-sm text-gray-400 font-bold">WhatsApp</p>
+                  <p class="text-white font-semibold whitespace-nowrap">+1 234 567 890</p>
                 </div>
               </a>
             </div>

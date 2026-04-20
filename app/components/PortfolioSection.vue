@@ -1,45 +1,45 @@
 <template>
-  <section id="portfolio" class="py-24 bg-white">
+  <section id="portfolio" class="py-24 bg-gray-900 relative">
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-amber-500 font-bold uppercase tracking-wide text-sm mb-2">
           My Results
         </h2>
-        <h3 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
+        <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-6">
           Proven Success Stories
         </h3>
-        <p class="text-lg text-gray-800">
+        <p class="text-lg text-gray-400">
           See how I've helped clients scale their Amazon and eBay businesses with strategic planning and execution.
         </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <div v-for="(item, index) in portfolio" :key="index" class="bg-gray-50 rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-          <div class="h-64 bg-gray-400 relative">
+        <div v-for="(item, index) in portfolio" :key="index" class="bg-gray-800/50 backdrop-blur-sm rounded-3xl overflow-hidden shadow-sm border border-gray-700 hover:border-amber-500/30 hover:shadow-amber-500/5 transition-all duration-300">
+          <div class="h-64 bg-gray-900 relative">
             <div class="absolute inset-0 bg-linear-to-tr" :class="item.gradient" />
             <div class="absolute inset-0 flex items-center justify-center p-8">
-              <div class="bg-white/90 backdrop-blur rounded-xl p-6 shadow-lg text-center w-full max-w-sm">
-                <p class="text-gray-700 text-sm font-bold uppercase mb-2">
+              <div class="bg-gray-900/80 backdrop-blur rounded-xl p-6 shadow-lg text-center w-full max-w-sm border border-white/10">
+                <p class="text-amber-500 text-sm font-bold uppercase mb-2">
                   {{ item.platform }}
                 </p>
-                <p class="text-3xl font-extrabold text-gray-900">
+                <p class="text-3xl font-extrabold text-white">
                   {{ item.metric }}
                 </p>
-                <p class="text-sm text-gray-800 mt-1">
+                <p class="text-sm text-gray-300 mt-1">
                   {{ item.metricLabel }}
                 </p>
               </div>
             </div>
           </div>
           <div class="p-8">
-            <h4 class="text-2xl font-bold text-gray-900 mb-3">
+            <h4 class="text-2xl font-bold text-white mb-3">
               {{ item.title }}
             </h4>
-            <p class="text-gray-800 mb-6">
+            <p class="text-gray-400 mb-6">
               {{ item.description }}
             </p>
             <div class="flex flex-wrap gap-2">
-              <span v-for="(tag, idx) in item.tags" :key="idx" class="px-3 py-1 bg-gray-200 text-gray-700 text-xs font-semibold rounded-full">
+              <span v-for="(tag, idx) in item.tags" :key="idx" class="px-3 py-1 bg-gray-900 text-amber-500 text-xs font-semibold rounded-full border border-amber-500/20">
                 {{ tag }}
               </span>
             </div>

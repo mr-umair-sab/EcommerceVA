@@ -18,10 +18,10 @@
     <ServicesSection />
 
     <!-- Detailed Service Explanation -->
-    <section class="py-20 bg-white">
+    <section class="py-20 bg-gray-900">
       <div class="container mx-auto px-4 md:px-6">
         <div class="max-w-4xl mx-auto">
-          <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">
+          <h2 class="text-3xl font-bold text-white mb-12 text-center">
             How I Work
           </h2>
 
@@ -29,15 +29,15 @@
             <!-- Step 1 -->
             <div class="flex flex-col md:flex-row gap-6 md:gap-10">
               <div class="md:w-1/4">
-                <div class="w-16 h-16 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center text-2xl font-bold">
+                <div class="w-16 h-16 bg-amber-500/10 text-amber-500 border border-amber-500/20 rounded-2xl flex items-center justify-center text-2xl font-bold">
                   01
                 </div>
               </div>
               <div class="md:w-3/4">
-                <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                <h3 class="text-2xl font-bold text-white mb-3">
                   Audit & Strategy
                 </h3>
-                <p class="text-gray-800 leading-relaxed">
+                <p class="text-gray-400 leading-relaxed">
                   Before executing any tasks, I perform a comprehensive audit of your current store, listings, and PPC campaigns. This helps me identify leaks in your profitability and areas with the highest growth potential. From this, I develop a tailored strategy aligned with your business goals.
                 </p>
               </div>
@@ -46,15 +46,15 @@
             <!-- Step 2 -->
             <div class="flex flex-col md:flex-row gap-6 md:gap-10">
               <div class="md:w-1/4">
-                <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl font-bold">
+                <div class="w-16 h-16 bg-blue-500/10 text-blue-500 border border-blue-500/20 rounded-2xl flex items-center justify-center text-2xl font-bold">
                   02
                 </div>
               </div>
               <div class="md:w-3/4">
-                <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                <h3 class="text-2xl font-bold text-white mb-3">
                   Execution & Optimization
                 </h3>
-                <p class="text-gray-800 leading-relaxed">
+                <p class="text-gray-400 leading-relaxed">
                   With the strategy in place, I begin execution. This includes optimizing listings with high-volume keywords, structuring your PPC campaigns for maximum efficiency, and implementing automated processes for inventory and pricing management.
                 </p>
               </div>
@@ -63,15 +63,15 @@
             <!-- Step 3 -->
             <div class="flex flex-col md:flex-row gap-6 md:gap-10">
               <div class="md:w-1/4">
-                <div class="w-16 h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-2xl font-bold">
+                <div class="w-16 h-16 bg-green-500/10 text-green-500 border border-green-500/20 rounded-2xl flex items-center justify-center text-2xl font-bold">
                   03
                 </div>
               </div>
               <div class="md:w-3/4">
-                <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                <h3 class="text-2xl font-bold text-white mb-3">
                   Scaling & Reporting
                 </h3>
-                <p class="text-gray-800 leading-relaxed">
+                <p class="text-gray-400 leading-relaxed">
                   Once the foundation is solid and profitable, we scale. I continuously monitor metrics, adjust bids, source new product opportunities, and provide you with clear, easy-to-understand weekly/monthly performance reports.
                 </p>
               </div>

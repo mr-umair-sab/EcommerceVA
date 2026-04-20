@@ -1,32 +1,35 @@
 <template>
-  <section id="services" class="py-24 bg-white">
+  <section id="services" class="py-24 bg-gray-900 relative">
+    <!-- Background element -->
+    <div class="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-gray-800 to-transparent" />
+
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-amber-500 font-bold uppercase tracking-wide text-sm mb-2">
           What I Do
         </h2>
-        <h3 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
+        <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-6">
           Comprehensive E-Commerce Services
         </h3>
-        <p class="text-lg text-gray-800">
+        <p class="text-lg text-gray-400">
           From product hunting to complete account management, I provide end-to-end solutions for your Amazon and eBay stores.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div v-for="(service, index) in services" :key="index" class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-          <div class="w-14 h-14 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
+        <div v-for="(service, index) in services" :key="index" class="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 shadow-sm hover:shadow-amber-500/10 transition-all duration-300 border border-gray-700 hover:border-amber-500/50 group">
+          <div class="w-14 h-14 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
             <UIcon :name="service.icon" class="w-8 h-8" />
           </div>
-          <h4 class="text-xl font-bold text-gray-900 mb-4">
+          <h4 class="text-xl font-bold text-white mb-4">
             {{ service.title }}
           </h4>
-          <p class="text-gray-800 mb-6 line-clamp-3">
+          <p class="text-gray-400 mb-6 line-clamp-3">
             {{ service.description }}
           </p>
           <ul class="space-y-2">
-            <li v-for="(feature, idx) in service.features" :key="idx" class="flex items-start text-sm text-gray-800">
-              <UIcon name="i-heroicons-check-circle" class="w-5 h-5 text-green-500 mr-2 shrink-0" />
+            <li v-for="(feature, idx) in service.features" :key="idx" class="flex items-start text-sm text-gray-300">
+              <UIcon name="i-heroicons-check-circle" class="w-5 h-5 text-amber-500 mr-2 shrink-0" />
               <span>{{ feature }}</span>
             </li>
           </ul>
