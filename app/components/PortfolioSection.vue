@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="py-24 bg-gray-200">
+  <section id="portfolio" class="py-24 bg-white">
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-amber-500 font-bold uppercase tracking-wide text-sm mb-2">
@@ -14,7 +14,7 @@
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <div v-for="(item, index) in portfolio" :key="index" class="bg-gray-300 rounded-3xl overflow-hidden shadow-sm border border-gray-300 hover:shadow-xl transition-shadow duration-300">
+        <div v-for="(item, index) in portfolio" :key="index" class="bg-gray-50 rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300">
           <div class="h-64 bg-gray-400 relative">
             <div class="absolute inset-0 bg-linear-to-tr" :class="item.gradient" />
             <div class="absolute inset-0 flex items-center justify-center p-8">
