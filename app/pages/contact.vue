@@ -22,14 +22,14 @@
       <div class="container mx-auto px-4 md:px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <!-- Left Column: Calendly -->
-          <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-100">
+          <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-100 h-full flex flex-col">
             <h2 class="text-2xl font-bold text-gray-900 mb-2">
               Book a Free Strategy Call
             </h2>
             <p class="text-gray-600 mb-6 text-sm">
               Select a time that works for you to discuss your business goals.
             </p>
-            <CalendlyEmbed />
+            <CalendlyEmbed class="grow" />
           </div>
 
           <!-- Right Column: Contact Form & Info -->
