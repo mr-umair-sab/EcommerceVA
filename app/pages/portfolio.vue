@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Page Header -->
-    <div class="bg-gray-900 text-white pt-32 pb-20 px-4 md:px-6 relative overflow-hidden">
+    <div class="bg-gray-900 text-white pt-32 pb-32 px-4 md:px-6 relative overflow-hidden">
       <div class="absolute inset-0 z-0">
         <div class="absolute inset-0 bg-linear-to-b from-gray-900 to-gray-800" />
         <div class="absolute left-0 top-0 w-1/3 h-full bg-blue-600 opacity-5 blur-[120px]" />

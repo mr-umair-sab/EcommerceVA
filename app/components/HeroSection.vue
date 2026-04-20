@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-gray-900 text-white min-h-screen flex items-center pt-20 overflow-hidden">
+  <section class="relative bg-gray-900 text-white min-h-screen flex items-center pt-20 pb-20 overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 bg-linear-to-r from-gray-900 via-gray-800 to-gray-900 opacity-90" />
