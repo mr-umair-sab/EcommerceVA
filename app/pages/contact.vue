@@ -91,21 +91,21 @@
             <!-- Direct Contact Info -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <a href="mailto:hello@AlishaVAPro.com" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 hover:border-amber-300 transition-colors group">
-                <div class="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center text-gray-500 group-hover:bg-amber-50 group-hover:text-amber-600 transition-colors">
+                <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-800 group-hover:bg-amber-50 group-hover:text-amber-600 transition-colors">
                   <UIcon name="i-heroicons-envelope" class="w-6 h-6" />
                 </div>
                 <div>
-                  <p class="text-sm text-gray-500 font-medium">Email Me</p>
-                  <p class="text-gray-900 font-semibold">hello@AlishaVAPro.com</p>
+                  <p class="text-sm text-gray-900 font-bold">Email Me</p>
+                  <p class="text-gray-900 font-semibold break-all">hello@AlishaVAPro.com</p>
                 </div>
               </a>
               <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 hover:border-green-300 transition-colors group">
-                <div class="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center text-gray-500 group-hover:bg-green-50 group-hover:text-green-600 transition-colors">
+                <div class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-800 group-hover:bg-green-50 group-hover:text-green-600 transition-colors">
                   <UIcon name="i-mdi-whatsapp" class="w-6 h-6" />
                 </div>
                 <div>
-                  <p class="text-sm text-gray-500 font-medium">WhatsApp</p>
-                  <p class="text-gray-900 font-semibold">+1 234 567 890</p>
+                  <p class="text-sm text-gray-900 font-bold">WhatsApp</p>
+                  <p class="text-gray-900 font-semibold whitespace-nowrap">+1 234 567 890</p>
                 </div>
               </a>
             </div>

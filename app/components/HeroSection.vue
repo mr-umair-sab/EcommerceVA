@@ -27,7 +27,7 @@
               </UButton>
             </NuxtLink>
             <NuxtLink to="/portfolio">
-              <UButton size="xl" color="gray" variant="ghost" class="rounded-full font-semibold px-8 py-3 w-full sm:w-auto text-center justify-center text-white hover:bg-white/10 transition-colors">
+              <UButton size="xl" color="success" variant="ghost" class="rounded-full font-semibold px-8 py-3 w-full sm:w-auto text-center justify-center text-white hover:bg-white/10 transition-colors">
                 View My Successes
               </UButton>
             </NuxtLink>
