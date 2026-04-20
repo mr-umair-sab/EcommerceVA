@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 md:px-6">
       <div class="flex items-center justify-between">
         <NuxtLink to="/" class="text-2xl font-bold tracking-tighter text-white">
-          VA<span class="text-amber-500">Pro</span>
+          Alisha<span class="text-amber-500">VAPro</span>
         </NuxtLink>
 
         <!-- Desktop Menu -->
