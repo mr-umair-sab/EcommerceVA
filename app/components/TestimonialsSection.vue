@@ -56,7 +56,7 @@ const testimonials = [
   {
     name: 'Michael T.',
     role: 'Amazon FBA Seller',
-    text: 'Hiring VAPro was the best decision for my Amazon business. The PPC campaigns were optimized perfectly, dropping my ACoS from 45% to 18% within just two months. Highly recommended!'
+    text: 'Hiring AlishaVAPro was the best decision for my Amazon business. The PPC campaigns were optimized perfectly, dropping my ACoS from 45% to 18% within just two months. Highly recommended!'
   },
   {
     name: 'Sarah J.',

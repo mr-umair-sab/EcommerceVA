@@ -55,7 +55,7 @@
           <ul class="space-y-3 text-sm">
             <li class="flex items-start">
               <UIcon name="i-heroicons-envelope" class="w-5 h-5 mr-3 text-amber-500 shrink-0" />
-              <span>hello@vapro.com</span>
+              <span>hello@AlishaVAPro.com</span>
             </li>
             <li class="flex items-start">
               <UIcon name="i-heroicons-phone" class="w-5 h-5 mr-3 text-amber-500 shrink-0" />
@@ -71,7 +71,7 @@
 
       <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
         <p class="text-xs text-gray-500">
-          &copy; {{ new Date().getFullYear() }} VAPro Services. All rights reserved.
+          &copy; {{ new Date().getFullYear() }} AlishaVAPro Services. All rights reserved.
         </p>
         <p class="text-xs text-gray-500 mt-2 md:mt-0">
           Built with Nuxt & Tailwind

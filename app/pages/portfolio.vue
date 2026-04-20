@@ -117,7 +117,7 @@
 
 <script setup>
 useHead({
-  title: 'Portfolio | VAPro',
+  title: 'Portfolio | AlishaVAPro',
   meta: [
     { name: 'description', content: 'Explore my Amazon and eBay Virtual Assistant case studies and success stories.' }
   ]

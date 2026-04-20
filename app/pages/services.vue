@@ -87,7 +87,7 @@
 
 <script setup>
 useHead({
-  title: 'Services | VAPro',
+  title: 'Services | AlishaVAPro',
   meta: [
     { name: 'description', content: 'Detailed list of Amazon FBA/FBM and eBay Virtual Assistant services.' }
   ]

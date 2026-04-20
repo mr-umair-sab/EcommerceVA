@@ -77,13 +77,13 @@
 
             <!-- Direct Contact Info -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a href="mailto:hello@vapro.com" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 hover:border-amber-300 transition-colors group">
+              <a href="mailto:hello@AlishaVAPro.com" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 hover:border-amber-300 transition-colors group">
                 <div class="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center text-gray-500 group-hover:bg-amber-50 group-hover:text-amber-600 transition-colors">
                   <UIcon name="i-heroicons-envelope" class="w-6 h-6" />
                 </div>
                 <div>
                   <p class="text-sm text-gray-500 font-medium">Email Me</p>
-                  <p class="text-gray-900 font-semibold">hello@vapro.com</p>
+                  <p class="text-gray-900 font-semibold">hello@AlishaVAPro.com</p>
                 </div>
               </a>
               <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 hover:border-green-300 transition-colors group">
@@ -105,7 +105,7 @@
 
 <script setup>
 useHead({
-  title: 'Contact | VAPro',
+  title: 'Contact | AlishaVAPro',
   meta: [
     { name: 'description', content: 'Contact me to scale your Amazon or eBay business.' }
   ]
