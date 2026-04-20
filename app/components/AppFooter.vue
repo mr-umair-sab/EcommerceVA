@@ -74,8 +74,8 @@
           &copy; {{ new Date().getFullYear() }} AlishaVAPro Services. All rights reserved.
         </p>
 
-        <p class="text-xs text-gray-500 mt-2 md:mt-0">
-          created by <a href="https://umairdevelperking.web.app/" class="text-green-700">Umair Developer</a>
+        <p class="text-xs text-gray-400 mt-2 md:mt-0">
+          created by <a href="https://umairdevelperking.web.app/" target="_blank" rel="noopener noreferrer" class="text-green-500 hover:text-green-400 font-medium transition-colors">Umair Developer</a>
         </p>
       </div>
     </div>
