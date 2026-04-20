@@ -8,7 +8,7 @@
         <h3 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
           Comprehensive E-Commerce Services
         </h3>
-        <p class="text-lg text-gray-600">
+        <p class="text-lg text-gray-800">
           From product hunting to complete account management, I provide end-to-end solutions for your Amazon and eBay stores.
         </p>
       </div>
@@ -21,11 +21,11 @@
           <h4 class="text-xl font-bold text-gray-900 mb-4">
             {{ service.title }}
           </h4>
-          <p class="text-gray-600 mb-6 line-clamp-3">
+          <p class="text-gray-800 mb-6 line-clamp-3">
             {{ service.description }}
           </p>
           <ul class="space-y-2">
-            <li v-for="(feature, idx) in service.features" :key="idx" class="flex items-start text-sm text-gray-600">
+            <li v-for="(feature, idx) in service.features" :key="idx" class="flex items-start text-sm text-gray-800">
               <UIcon name="i-heroicons-check-circle" class="w-5 h-5 text-green-500 mr-2 shrink-0" />
               <span>{{ feature }}</span>
             </li>

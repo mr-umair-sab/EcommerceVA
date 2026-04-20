@@ -8,7 +8,7 @@
         <h3 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
           Proven Success Stories
         </h3>
-        <p class="text-lg text-gray-600">
+        <p class="text-lg text-gray-800">
           See how I've helped clients scale their Amazon and eBay businesses with strategic planning and execution.
         </p>
       </div>
@@ -19,13 +19,13 @@
             <div class="absolute inset-0 bg-linear-to-tr" :class="item.gradient" />
             <div class="absolute inset-0 flex items-center justify-center p-8">
               <div class="bg-white/90 backdrop-blur rounded-xl p-6 shadow-lg text-center w-full max-w-sm">
-                <p class="text-gray-500 text-sm font-bold uppercase mb-2">
+                <p class="text-gray-700 text-sm font-bold uppercase mb-2">
                   {{ item.platform }}
                 </p>
                 <p class="text-3xl font-extrabold text-gray-900">
                   {{ item.metric }}
                 </p>
-                <p class="text-sm text-gray-600 mt-1">
+                <p class="text-sm text-gray-800 mt-1">
                   {{ item.metricLabel }}
                 </p>
               </div>
@@ -35,7 +35,7 @@
             <h4 class="text-2xl font-bold text-gray-900 mb-3">
               {{ item.title }}
             </h4>
-            <p class="text-gray-600 mb-6">
+            <p class="text-gray-800 mb-6">
               {{ item.description }}
             </p>
             <div class="flex flex-wrap gap-2">

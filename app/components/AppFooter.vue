@@ -6,17 +6,17 @@
           <NuxtLink to="/" class="text-2xl font-bold tracking-tighter text-white mb-4 block">
             VA<span class="text-amber-500">Pro</span>
           </NuxtLink>
-          <p class="text-sm text-gray-400 mb-6">
+          <p class="text-sm text-gray-300 mb-6">
             Expert Amazon and eBay Virtual Assistant services to scale your e-commerce business effectively.
           </p>
           <div class="flex space-x-4">
-            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <a href="#" class="text-gray-300 hover:text-white transition-colors">
               <UIcon name="i-mdi-linkedin" class="w-6 h-6" />
             </a>
-            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <a href="#" class="text-gray-300 hover:text-white transition-colors">
               <UIcon name="i-mdi-twitter" class="w-6 h-6" />
             </a>
-            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <a href="#" class="text-gray-300 hover:text-white transition-colors">
               <UIcon name="i-mdi-facebook" class="w-6 h-6" />
             </a>
           </div>
@@ -70,7 +70,7 @@
       </div>
 
       <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-        <p class="text-xs text-gray-500">
+        <p class="text-xs text-gray-400">
           &copy; {{ new Date().getFullYear() }} AlishaVAPro Services. All rights reserved.
         </p>
         <p class="text-xs text-gray-500 mt-2 md:mt-0">

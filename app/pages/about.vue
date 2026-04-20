@@ -10,7 +10,7 @@
         <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
           About <span class="text-amber-500">Me</span>
         </h1>
-        <p class="text-lg text-gray-400">
+        <p class="text-lg text-gray-200">
           Dedicated to helping e-commerce sellers achieve their full potential.
         </p>
       </div>
@@ -24,13 +24,13 @@
             <h2 class="text-3xl font-bold text-gray-900">
               Your Partner in E-commerce Growth
             </h2>
-            <p class="text-gray-600 leading-relaxed">
+            <p class="text-gray-800 leading-relaxed">
               With over 4 years of experience navigating the complexities of Amazon and eBay, I've developed a deep understanding of what it takes to succeed in the competitive e-commerce landscape.
             </p>
-            <p class="text-gray-600 leading-relaxed">
+            <p class="text-gray-800 leading-relaxed">
               My journey started as an independent seller, where I learned the ropes through trial and error. I quickly realized my passion lay in the strategic side of the business—optimizing listings, finding hidden product gems, and engineering profitable PPC campaigns.
             </p>
-            <p class="text-gray-600 leading-relaxed">
+            <p class="text-gray-800 leading-relaxed">
               Today, I partner with brand owners and sellers worldwide to take the operational burden off their shoulders, allowing them to focus on high-level strategy and business growth.
             </p>
 
@@ -102,7 +102,7 @@
             <h3 class="text-xl font-bold mb-3">
               Transparency
             </h3>
-            <p class="text-gray-600">
+            <p class="text-gray-800">
               Honest communication about expectations, performance metrics, and strategic decisions.
             </p>
           </div>
@@ -113,7 +113,7 @@
             <h3 class="text-xl font-bold mb-3">
               Data-Driven
             </h3>
-            <p class="text-gray-600">
+            <p class="text-gray-800">
               Every decision from keyword targeting to pricing strategies is backed by hard data.
             </p>
           </div>
@@ -124,7 +124,7 @@
             <h3 class="text-xl font-bold mb-3">
               Reliability
             </h3>
-            <p class="text-gray-600">
+            <p class="text-gray-800">
               Consistent execution, meeting deadlines, and keeping your accounts healthy and safe.
             </p>
           </div>

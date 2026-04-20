@@ -10,7 +10,7 @@
         <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
           My <span class="text-amber-500">Portfolio</span>
         </h1>
-        <p class="text-lg text-gray-400">
+        <p class="text-lg text-gray-200">
           Case studies and results from my successful E-commerce projects.
         </p>
       </div>
@@ -59,7 +59,7 @@
             <h4 class="font-bold text-gray-900 mb-2">
               The Strategy:
             </h4>
-            <p class="text-gray-600 text-sm leading-relaxed">
+            <p class="text-gray-800 text-sm leading-relaxed">
               We audited the existing campaigns and found heavy spend on broad match keywords with low conversion rates. We paused bleeding keywords, structured exact match campaigns for top converters, and implemented aggressive negative keyword targeting. We also optimized the main image to improve CTR.
             </p>
           </div>
@@ -78,7 +78,7 @@
                 <p class="text-3xl font-extrabold text-gray-900 mb-1">
                   0 to 500
                 </p>
-                <p class="text-xs text-gray-500 uppercase font-bold tracking-wider">
+                <p class="text-xs text-gray-700 uppercase font-bold tracking-wider">
                   Active Listings
                 </p>
               </div>
@@ -86,7 +86,7 @@
                 <p class="text-3xl font-extrabold text-gray-900 mb-1">
                   100%
                 </p>
-                <p class="text-xs text-gray-500 uppercase font-bold tracking-wider">
+                <p class="text-xs text-gray-700 uppercase font-bold tracking-wider">
                   Positive Feedback
                 </p>
               </div>
@@ -94,7 +94,7 @@
                 <p class="text-3xl font-extrabold text-gray-900 mb-1">
                   $12k
                 </p>
-                <p class="text-xs text-gray-500 uppercase font-bold tracking-wider">
+                <p class="text-xs text-gray-700 uppercase font-bold tracking-wider">
                   Month 1 Revenue
                 </p>
               </div>
@@ -103,7 +103,7 @@
             <h4 class="font-bold text-gray-900 mb-2">
               The Strategy:
             </h4>
-            <p class="text-gray-600 text-sm leading-relaxed">
+            <p class="text-gray-800 text-sm leading-relaxed">
               Started a new eBay account using strategic low-ticket items to build initial feedback securely. Integrated automated software for inventory syncing with wholesale suppliers. Created SEO-optimized titles to rank organically in eBay search without relying on promoted listings initially.
             </p>
           </div>

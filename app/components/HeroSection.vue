@@ -17,7 +17,7 @@
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
             Scale Your <span class="text-transparent bg-clip-text bg-linear-to-r from-amber-400 to-amber-600">E-Commerce</span> Empire Faster
           </h1>
-          <p class="text-lg md:text-xl text-gray-300 max-w-xl leading-relaxed">
+          <p class="text-lg md:text-xl text-gray-200 max-w-xl leading-relaxed">
             I help sellers dominate Amazon and eBay through expert product hunting, optimized listings, profitable PPC, and complete account management.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 pt-4">
@@ -36,12 +36,12 @@
           <div class="pt-8 flex items-center gap-6">
             <div class="flex flex-col">
               <span class="text-3xl font-bold text-white">50+</span>
-              <span class="text-sm text-gray-400 uppercase tracking-wider font-medium">Clients Helped</span>
+              <span class="text-sm text-gray-300 uppercase tracking-wider font-medium">Clients Helped</span>
             </div>
             <div class="w-px h-12 bg-gray-700" />
             <div class="flex flex-col">
               <span class="text-3xl font-bold text-white">$2M+</span>
-              <span class="text-sm text-gray-400 uppercase tracking-wider font-medium">Revenue Generated</span>
+              <span class="text-sm text-gray-300 uppercase tracking-wider font-medium">Revenue Generated</span>
             </div>
           </div>
         </div>

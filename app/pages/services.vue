@@ -9,7 +9,7 @@
         <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
           My <span class="text-amber-500">Services</span>
         </h1>
-        <p class="text-lg text-gray-400">
+        <p class="text-lg text-gray-200">
           Comprehensive solutions to launch, manage, and scale your E-commerce business.
         </p>
       </div>
@@ -37,7 +37,7 @@
                 <h3 class="text-2xl font-bold text-gray-900 mb-3">
                   Audit & Strategy
                 </h3>
-                <p class="text-gray-600 leading-relaxed">
+                <p class="text-gray-800 leading-relaxed">
                   Before executing any tasks, I perform a comprehensive audit of your current store, listings, and PPC campaigns. This helps me identify leaks in your profitability and areas with the highest growth potential. From this, I develop a tailored strategy aligned with your business goals.
                 </p>
               </div>
@@ -54,7 +54,7 @@
                 <h3 class="text-2xl font-bold text-gray-900 mb-3">
                   Execution & Optimization
                 </h3>
-                <p class="text-gray-600 leading-relaxed">
+                <p class="text-gray-800 leading-relaxed">
                   With the strategy in place, I begin execution. This includes optimizing listings with high-volume keywords, structuring your PPC campaigns for maximum efficiency, and implementing automated processes for inventory and pricing management.
                 </p>
               </div>
@@ -71,7 +71,7 @@
                 <h3 class="text-2xl font-bold text-gray-900 mb-3">
                   Scaling & Reporting
                 </h3>
-                <p class="text-gray-600 leading-relaxed">
+                <p class="text-gray-800 leading-relaxed">
                   Once the foundation is solid and profitable, we scale. I continuously monitor metrics, adjust bids, source new product opportunities, and provide you with clear, easy-to-understand weekly/monthly performance reports.
                 </p>
               </div>

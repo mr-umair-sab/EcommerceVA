@@ -12,7 +12,7 @@
         <h3 class="text-3xl md:text-4xl font-extrabold mb-6">
           What My Clients Say
         </h3>
-        <p class="text-lg text-gray-400">
+        <p class="text-lg text-gray-200">
           Don't just take my word for it. Hear from the business owners who have scaled their operations with my VA services.
         </p>
       </div>
@@ -26,7 +26,7 @@
           </div>
           <div class="flex items-center mb-6 pt-4">
             <div class="w-12 h-12 rounded-full bg-gray-600 mr-4 overflow-hidden">
-              <div class="w-full h-full flex items-center justify-center text-gray-400 font-bold text-xl">
+              <div class="w-full h-full flex items-center justify-center text-gray-200 font-bold text-xl">
                 {{ testimonial.name.charAt(0) }}
               </div>
             </div>
@@ -34,7 +34,7 @@
               <h4 class="font-bold text-white">
                 {{ testimonial.name }}
               </h4>
-              <p class="text-sm text-gray-400">
+              <p class="text-sm text-gray-200">
                 {{ testimonial.role }}
               </p>
             </div>
@@ -42,7 +42,7 @@
           <div class="flex text-amber-400 mb-4">
             <UIcon v-for="i in 5" :key="i" name="i-heroicons-star-solid" class="w-5 h-5" />
           </div>
-          <p class="text-gray-300 italic leading-relaxed">
+          <p class="text-gray-100 italic leading-relaxed">
             "{{ testimonial.text }}"
           </p>
         </div>

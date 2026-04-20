@@ -43,21 +43,21 @@
               <form class="space-y-4" @submit.prevent="submitForm">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
-                    <input v-model="form.firstName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="John">
+                    <label class="block text-sm font-bold text-gray-900 mb-1">First Name</label>
+                    <input v-model="form.firstName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none" placeholder="John">
                   </div>
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
-                    <input v-model="form.lastName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="Doe">
+                    <label class="block text-sm font-bold text-gray-900 mb-1">Last Name</label>
+                    <input v-model="form.lastName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none" placeholder="Doe">
                   </div>
                 </div>
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                  <input v-model="form.email" type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="john@example.com">
+                  <label class="block text-sm font-bold text-gray-900 mb-1">Email Address</label>
+                  <input v-model="form.email" type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none" placeholder="john@example.com">
                 </div>
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-1">Select Service Area</label>
-                  <select v-model="form.service" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none">
+                  <label class="block text-sm font-bold text-gray-900 mb-1">Select Service Area</label>
+                  <select v-model="form.service" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 outline-none">
                     <option>Amazon FBA/FBM</option>
                     <option>eBay Dropshipping/Wholesale</option>
                     <option>PPC Campaign Management</option>
@@ -66,8 +66,8 @@
                   </select>
                 </div>
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                  <textarea v-model="form.message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none resize-none" placeholder="Tell me about your business and goals..." />
+                  <label class="block text-sm font-bold text-gray-900 mb-1">Message</label>
+                  <textarea v-model="form.message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-white text-gray-900 placeholder:text-gray-400 outline-none resize-none" placeholder="Tell me about your business and goals..." />
                 </div>
                 <UButton
                   type="submit"
