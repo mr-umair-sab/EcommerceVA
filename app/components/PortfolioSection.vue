@@ -49,7 +49,7 @@
 
       <div class="mt-16 text-center">
         <NuxtLink to="/portfolio">
-          <UButton color="gray" variant="outline" size="lg" class="rounded-full px-8 font-semibold">
+          <UButton color="primary" variant="outline" size="lg" class="rounded-full px-8 font-semibold">
             View Full Portfolio
           </UButton>
         </NuxtLink>

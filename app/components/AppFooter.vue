@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div class="col-span-1 md:col-span-1">
           <NuxtLink to="/" class="text-2xl font-bold tracking-tighter text-white mb-4 block">
-            VA<span class="text-amber-500">Pro</span>
+            Alisha<span class="text-amber-500">VAPro</span>
           </NuxtLink>
           <p class="text-sm text-gray-300 mb-6">
             Expert Amazon and eBay Virtual Assistant services to scale your e-commerce business effectively.
@@ -73,8 +73,9 @@
         <p class="text-xs text-gray-400">
           &copy; {{ new Date().getFullYear() }} AlishaVAPro Services. All rights reserved.
         </p>
+
         <p class="text-xs text-gray-500 mt-2 md:mt-0">
-          Built with Nuxt & Tailwind
+          created by <a href="https://umairdevelperking.web.app/" class="text-green-700">Umair Developer</a>
         </p>
       </div>
     </div>
