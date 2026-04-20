@@ -1,5 +1,5 @@
 <template>
-  <!-- cspell:ignore Formspree -->
+  <!-- cspell:ignore Formspree firestore -->
   <div>
     <!-- Page Header -->
     <div class="bg-gray-900 text-white pt-32 pb-20 px-4 md:px-6 relative overflow-hidden">
@@ -44,20 +44,20 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
-                    <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="John">
+                    <input v-model="form.firstName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="John">
                   </div>
                   <div>
                     <label class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
-                    <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="Doe">
+                    <input v-model="form.lastName" type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="Doe">
                   </div>
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                  <input type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="john@example.com">
+                  <input v-model="form.email" type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none" placeholder="john@example.com">
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1">Select Service Area</label>
-                  <select class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none">
+                  <select v-model="form.service" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none">
                     <option>Amazon FBA/FBM</option>
                     <option>eBay Dropshipping/Wholesale</option>
                     <option>PPC Campaign Management</option>
@@ -67,11 +67,24 @@
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                  <textarea rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none resize-none" placeholder="Tell me about your business and goals..." />
+                  <textarea v-model="form.message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-50 outline-none resize-none" placeholder="Tell me about your business and goals..." />
                 </div>
-                <UButton type="submit" color="primary" variant="solid" block class="rounded-xl py-3 font-bold text-base shadow-md">
+                <UButton
+                  type="submit"
+                  color="primary"
+                  variant="solid"
+                  block
+                  class="rounded-xl py-3 font-bold text-base shadow-md"
+                  :loading="isSubmitting">
                   Send Message
                 </UButton>
+
+                <div v-if="submitSuccess" class="p-4 bg-green-50 text-green-700 rounded-xl border border-green-200 text-sm">
+                  Thanks for your message! I'll get back to you shortly.
+                </div>
+                <div v-if="submitError" class="p-4 bg-red-50 text-red-700 rounded-xl border border-red-200 text-sm">
+                  There was an error sending your message. Please try again or contact via WhatsApp.
+                </div>
               </form>
             </div>
 
@@ -104,6 +117,9 @@
 </template>
 
 <script setup>
+import { ref, reactive } from 'vue'
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
+
 useHead({
   title: 'Contact | AlishaVAPro',
   meta: [
@@ -111,8 +127,53 @@ useHead({
   ]
 })
 
-const submitForm = () => {
-  // Integration point for Formspree / EmailJS
-  alert('Thanks for your message! This is a placeholder. Please connect EmailJS or Formspree to handle submissions.')
+const { $firestore } = useNuxtApp()
+
+const isSubmitting = ref(false)
+const submitSuccess = ref(false)
+const submitError = ref(false)
+
+const form = reactive({
+  firstName: '',
+  lastName: '',
+  email: '',
+  service: 'Amazon FBA/FBM',
+  message: ''
+})
+
+const submitForm = async () => {
+  isSubmitting.value = true
+  submitSuccess.value = false
+  submitError.value = false
+
+  try {
+    await addDoc(collection($firestore, 'contact_messages'), {
+      ...form,
+      createdAt: serverTimestamp()
+    })
+
+    submitSuccess.value = true
+
+    // Reset form
+    form.firstName = ''
+    form.lastName = ''
+    form.email = ''
+    form.service = 'Amazon FBA/FBM'
+    form.message = ''
+  }
+  catch (e) {
+    console.error('Error adding document: ', e)
+    submitError.value = true
+  }
+  finally {
+    isSubmitting.value = false
+
+    // Hide success message after 5 seconds
+    if (submitSuccess.value) {
+      setTimeout(() => {
+        submitSuccess.value = false
+      }, 5000)
+    }
+  }
 }
 </script>
