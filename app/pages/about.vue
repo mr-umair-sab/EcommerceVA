@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <div class="bg-gray-900 text-white pt-32 pb-20 px-4 md:px-6 relative overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <div class="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-800" />
+        <div class="absolute inset-0 bg-linear-to-b from-gray-900 to-gray-800" />
         <div class="absolute right-0 top-0 w-1/2 h-full bg-amber-500 opacity-5 blur-[150px]" />
       </div>
       <div class="container mx-auto max-w-4xl relative z-10 text-center">
@@ -55,9 +55,9 @@
           </div>
 
           <div class="order-1 md:order-2 relative">
-            <div class="aspect-[4/5] bg-gray-200 rounded-3xl overflow-hidden relative shadow-2xl">
+            <div class="aspect-4/5 bg-gray-200 rounded-3xl overflow-hidden relative shadow-2xl">
               <!-- Placeholder for profile image -->
-              <div class="absolute inset-0 bg-gradient-to-tr from-gray-800 to-gray-600 flex items-center justify-center">
+              <div class="absolute inset-0 bg-linear-to-tr from-gray-800 to-gray-600 flex items-center justify-center">
                 <UIcon name="i-heroicons-user" class="w-32 h-32 text-gray-400 opacity-50" />
                 <p class="absolute bottom-10 text-center text-white/80 font-medium w-full px-6">
                   Your Professional Image Here

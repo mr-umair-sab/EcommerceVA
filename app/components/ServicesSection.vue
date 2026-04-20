@@ -1,5 +1,5 @@
 <template>
-  <section id="services" class="py-24 bg-gray-50">
+  <section id="services" class="py-24 bg-gray-200">
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-amber-500 font-bold uppercase tracking-wide text-sm mb-2">
@@ -14,8 +14,8 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div v-for="(service, index) in services" :key="index" class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-          <div class="w-14 h-14 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
+        <div v-for="(service, index) in services" :key="index" class="bg-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-200 group">
+          <div class="w-14 h-14 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
             <UIcon :name="service.icon" class="w-8 h-8" />
           </div>
           <h4 class="text-xl font-bold text-gray-900 mb-4">

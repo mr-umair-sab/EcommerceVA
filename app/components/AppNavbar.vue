@@ -1,14 +1,14 @@
 <template>
-  <nav class="fixed w-full z-50 transition-all duration-300" :class="{ 'bg-white shadow-md py-3': isScrolled, 'bg-transparent py-5': !isScrolled }">
+  <nav class="fixed w-full z-50 transition-all duration-300" :class="{ 'bg-gray-900 shadow-md py-3': isScrolled, 'bg-transparent py-5': !isScrolled }">
     <div class="container mx-auto px-4 md:px-6">
       <div class="flex items-center justify-between">
-        <NuxtLink to="/" class="text-2xl font-bold tracking-tighter" :class="{ 'text-primary-600': isScrolled, 'text-white': !isScrolled && isHome, 'text-primary-600': !isScrolled && !isHome }">
+        <NuxtLink to="/" class="text-2xl font-bold tracking-tighter text-white">
           VA<span class="text-amber-500">Pro</span>
         </NuxtLink>
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-8">
-          <NuxtLink v-for="link in links" :key="link.path" :to="link.path" class="text-sm font-medium transition-colors hover:text-amber-500" :class="{ 'text-gray-700': isScrolled || !isHome, 'text-gray-200': !isScrolled && isHome }">
+          <NuxtLink v-for="link in links" :key="link.path" :to="link.path" class="text-sm font-medium transition-colors hover:text-amber-500" :class="{ 'text-gray-300': isScrolled || !isHome, 'text-gray-200': !isScrolled && isHome }">
             {{ link.name }}
           </NuxtLink>
           <NuxtLink to="/contact">
@@ -20,7 +20,7 @@
 
         <!-- Mobile menu button -->
         <div class="md:hidden">
-          <button class="focus:outline-none" :class="{ 'text-gray-900': isScrolled || !isHome, 'text-white': !isScrolled && isHome }" @click="isOpen = !isOpen">
+          <button class="focus:outline-none text-white" @click="isOpen = !isOpen">
             <UIcon :name="isOpen ? 'i-heroicons-x-mark' : 'i-heroicons-bars-3'" class="w-6 h-6" />
           </button>
         </div>
@@ -28,8 +28,8 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div v-show="isOpen" class="md:hidden bg-white shadow-lg absolute w-full left-0 top-full flex flex-col border-t border-gray-100 animate-fade-in">
-      <NuxtLink v-for="link in links" :key="link.path" :to="link.path" class="px-6 py-4 border-b border-gray-50 text-gray-800 font-medium" @click="isOpen = false">
+    <div v-show="isOpen" class="md:hidden bg-gray-900 shadow-lg absolute w-full left-0 top-full flex flex-col border-t border-gray-800 animate-fade-in">
+      <NuxtLink v-for="link in links" :key="link.path" :to="link.path" class="px-6 py-4 border-b border-gray-800 text-gray-300 font-medium hover:text-amber-500 hover:bg-gray-800" @click="isOpen = false">
         {{ link.name }}
       </NuxtLink>
       <div class="px-6 py-4">

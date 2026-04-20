@@ -1,9 +1,10 @@
 <template>
+  <!-- cspell:ignore Formspree -->
   <div>
     <!-- Page Header -->
     <div class="bg-gray-900 text-white pt-32 pb-20 px-4 md:px-6 relative overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <div class="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-800" />
+        <div class="absolute inset-0 bg-linear-to-b from-gray-900 to-gray-800" />
         <div class="absolute right-0 bottom-0 w-1/3 h-1/2 bg-amber-500 opacity-10 blur-[100px]" />
       </div>
       <div class="container mx-auto max-w-4xl relative z-10 text-center">
