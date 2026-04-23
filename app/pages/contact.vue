@@ -52,11 +52,11 @@
                   </div>
                 </div>
                 <div>
-                  <label class="block text-sm font-bold text-gray-900 mb-1">Email Address</label>
+                  <label class="block text-sm font-bold text-gray-300 mb-1">Email Address</label>
                   <input v-model="form.email" type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white placeholder:text-gray-500 outline-none" placeholder="john@example.com">
                 </div>
                 <div>
-                  <label class="block text-sm font-bold text-gray-900 mb-1">Select Service Area</label>
+                  <label class="block text-sm font-bold text-gray-300 mb-1">Select Service Area</label>
                   <select v-model="form.service" class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white outline-none">
                     <option>Amazon FBA/FBM</option>
                     <option>eBay & Walmart Sales</option>
@@ -70,7 +70,7 @@
                   </select>
                 </div>
                 <div>
-                  <label class="block text-sm font-bold text-gray-900 mb-1">Message</label>
+                  <label class="block text-sm font-bold text-gray-300 mb-1">Message</label>
                   <textarea v-model="form.message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white placeholder:text-gray-500 outline-none resize-none" placeholder="Tell me about your business and goals..." />
                 </div>
                 <UButton
