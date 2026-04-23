@@ -69,7 +69,7 @@
             <div class="flex items-center gap-3 mb-6">
               <UIcon name="i-heroicons-globe-americas" class="w-6 h-6 text-blue-500" />
               <h3 class="text-2xl font-bold text-white">
-                Multi-Platform Store Expansion
+                eBay, Walmart & TikTok Shop Expansion
               </h3>
             </div>
 

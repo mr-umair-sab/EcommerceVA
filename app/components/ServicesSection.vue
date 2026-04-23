@@ -60,7 +60,7 @@ const services = [
     features: ['Campaign Setup & Strategy', 'Bid Optimization', 'Negative Keyword Targeting']
   },
   {
-    title: 'Multi-Platform Sales',
+    title: 'eBay, Walmart & TikTok Shop Sales',
     description: 'Expert management for eBay, Walmart, Mercari, TikTok Shop, and Etsy stores, including product sourcing and order fulfillment.',
     icon: 'i-heroicons-shopping-bag',
     features: ['Supplier Sourcing', 'Automated Pricing Strategies', 'Customer Service Management']
