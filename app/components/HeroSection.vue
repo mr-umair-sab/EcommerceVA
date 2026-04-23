@@ -21,9 +21,14 @@
             I help sellers dominate Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy through expert product hunting, optimized listings, and complete account management.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 pt-4">
-            <NuxtLink to="/contact">
+            <NuxtLink v-if="false" to="/contact">
               <UButton size="xl" color="primary" variant="solid" class="rounded-full font-semibold px-8 py-3 w-full sm:w-auto text-center justify-center shadow-lg shadow-amber-500/20 hover:shadow-amber-500/40 transition-shadow">
                 Book Free Consultation
+              </UButton>
+            </NuxtLink>
+            <NuxtLink to="/contact">
+              <UButton size="xl" color="primary" variant="solid" class="rounded-full font-semibold px-8 py-3 w-full sm:w-auto text-center justify-center shadow-lg shadow-amber-500/20 hover:shadow-amber-500/40 transition-shadow">
+                Get in Touch
               </UButton>
             </NuxtLink>
             <NuxtLink to="/portfolio">

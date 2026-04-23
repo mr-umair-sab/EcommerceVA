@@ -27,9 +27,14 @@
           Let's discuss your goals and how my expert VA services for Amazon, eBay, Walmart, TikTok Shop, and Etsy can help you achieve them faster.
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-          <NuxtLink to="/contact">
+          <NuxtLink v-if="false" to="/contact">
             <UButton size="xl" color="gray" variant="solid" class="rounded-full font-bold px-8 py-4 w-full sm:w-auto text-gray-900 bg-white hover:bg-gray-50 shadow-xl hover:-translate-y-1 transition-transform">
               Book a Free Consultation
+            </UButton>
+          </NuxtLink>
+          <NuxtLink to="/contact">
+            <UButton size="xl" color="gray" variant="solid" class="rounded-full font-bold px-8 py-4 w-full sm:w-auto text-gray-900 bg-white hover:bg-gray-50 shadow-xl hover:-translate-y-1 transition-transform">
+              Send a Message
             </UButton>
           </NuxtLink>
           <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">

@@ -12,7 +12,7 @@
           Let's <span class="text-amber-500">Connect</span>
         </h1>
         <p class="text-lg text-gray-400">
-          Ready to scale your business? Book a consultation or send me a message.
+          Ready to scale your business? Send me a message below.
         </p>
       </div>
     </div>
@@ -20,9 +20,9 @@
     <!-- Contact Section -->
     <section class="py-20 bg-gray-900">
       <div class="container mx-auto px-4 md:px-6">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          <!-- Left Column: Calendly -->
-          <div class="bg-gray-800/50 backdrop-blur-sm p-6 md:p-8 rounded-3xl shadow-sm border border-gray-700 h-full flex flex-col">
+        <div class="max-w-2xl mx-auto">
+          <!-- Left Column: Calendly (Hidden) -->
+          <div v-if="false" class="bg-gray-800/50 backdrop-blur-sm p-6 md:p-8 rounded-3xl shadow-sm border border-gray-700 h-full flex flex-col">
             <h2 class="text-2xl font-bold text-white mb-2">
               Book a Free Strategy Call
             </h2>
