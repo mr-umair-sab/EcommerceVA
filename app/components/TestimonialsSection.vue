@@ -60,8 +60,8 @@ const testimonials = [
   },
   {
     name: 'Sarah J.',
-    role: 'eBay Store Owner',
-    text: 'I was struggling to keep up with order fulfillment and customer service on eBay. Now, everything is handled automatically. My seller rating has never been higher, and sales are up 60%.'
+    role: 'Multi-Channel Seller',
+    text: 'I was struggling to keep up with order fulfillment across eBay, Walmart, and TikTok Shop. Now, everything is handled seamlessly. My seller ratings are perfect, and overall sales are up 80%.'
   },
   {
     name: 'David W.',

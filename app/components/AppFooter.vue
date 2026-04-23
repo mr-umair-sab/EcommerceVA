@@ -7,7 +7,7 @@
             Alisha<span class="text-amber-500">VAPro</span>
           </NuxtLink>
           <p class="text-sm text-gray-300 mb-6">
-            Expert Amazon and eBay Virtual Assistant services to scale your e-commerce business effectively.
+            Expert Virtual Assistant services for Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy.
           </p>
           <div class="flex space-x-4">
             <a href="#" class="text-gray-300 hover:text-white transition-colors">
@@ -41,9 +41,9 @@
           </h3>
           <ul class="space-y-2 text-sm">
             <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">Amazon FBA/FBM</NuxtLink></li>
-            <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">Product Hunting</NuxtLink></li>
-            <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">PPC Campaigns</NuxtLink></li>
-            <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">eBay Dropshipping</NuxtLink></li>
+            <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">Walmart & eBay Sales</NuxtLink></li>
+            <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">TikTok Shop & Etsy</NuxtLink></li>
+            <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">Mercari & Poshmark</NuxtLink></li>
             <li><NuxtLink to="/services" class="hover:text-amber-500 transition-colors">Account Management</NuxtLink></li>
           </ul>
         </div>

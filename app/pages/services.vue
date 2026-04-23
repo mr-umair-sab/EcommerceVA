@@ -89,7 +89,7 @@
 useHead({
   title: 'Services | AlishaVAPro',
   meta: [
-    { name: 'description', content: 'Detailed list of Amazon FBA/FBM and eBay Virtual Assistant services.' }
+    { name: 'description', content: 'Detailed list of Virtual Assistant services for Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy.' }
   ]
 })
 </script>

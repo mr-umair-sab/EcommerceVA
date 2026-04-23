@@ -9,7 +9,7 @@
           Proven Success Stories
         </h3>
         <p class="text-lg text-gray-400">
-          See how I've helped clients scale their Amazon and eBay businesses with strategic planning and execution.
+          See how I've helped clients scale their businesses across Amazon, eBay, Walmart, and TikTok Shop with strategic planning and execution.
         </p>
       </div>
 
@@ -70,9 +70,9 @@ const portfolio = [
     tags: ['PPC Optimization', 'Listing SEO', 'A+ Content']
   },
   {
-    platform: 'eBay Dropshipping',
+    platform: 'Multi-Channel Selling',
     title: 'Automated Electronics Store',
-    description: 'Built a fully automated eBay dropshipping store from scratch. Sourced top-selling electronics from reliable suppliers and optimized automated repricing.',
+    description: 'Expanded a brand from Amazon to Walmart, eBay, and TikTok Shop. Automated inventory syncing and optimized multi-platform listings for maximum organic reach.',
     metric: '$45,000',
     metricLabel: 'Monthly Revenue Achieved',
     gradient: 'from-amber-400 to-orange-500',

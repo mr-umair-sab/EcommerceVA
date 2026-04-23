@@ -59,7 +59,11 @@
                   <label class="block text-sm font-bold text-gray-900 mb-1">Select Service Area</label>
                   <select v-model="form.service" class="w-full px-4 py-3 rounded-xl border border-gray-700 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-colors bg-gray-900 text-white outline-none">
                     <option>Amazon FBA/FBM</option>
-                    <option>eBay Dropshipping/Wholesale</option>
+                    <option>eBay & Walmart Sales</option>
+                    <option>TikTok Shop & Etsy</option>
+                    <option>Mercari & Poshmark</option>
+                    <option>Shopify Management</option>
+                    <option>Dropshipping/Wholesale</option>
                     <option>PPC Campaign Management</option>
                     <option>Product Hunting</option>
                     <option>Other</option>
@@ -123,7 +127,7 @@ import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
 useHead({
   title: 'Contact | AlishaVAPro',
   meta: [
-    { name: 'description', content: 'Contact me to scale your Amazon or eBay business.' }
+    { name: 'description', content: 'Contact me to scale your business on Amazon, eBay, Walmart, Mercari, TikTok Shop, or Etsy.' }
   ]
 })
 

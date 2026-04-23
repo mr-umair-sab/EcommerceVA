@@ -69,7 +69,7 @@
             <div class="flex items-center gap-3 mb-6">
               <UIcon name="i-heroicons-globe-americas" class="w-6 h-6 text-blue-500" />
               <h3 class="text-2xl font-bold text-white">
-                eBay Dropshipping Store Launch
+                Multi-Platform Store Expansion
               </h3>
             </div>
 
@@ -104,7 +104,7 @@
               The Strategy:
             </h4>
             <p class="text-gray-400 text-sm leading-relaxed">
-              Started a new eBay account using strategic low-ticket items to build initial feedback securely. Integrated automated software for inventory syncing with wholesale suppliers. Created SEO-optimized titles to rank organically in eBay search without relying on promoted listings initially.
+              Successfully expanded a single-channel seller across eBay, Walmart, and TikTok Shop. Integrated automated software for inventory syncing across all platforms to prevent overselling. Created SEO-optimized titles and descriptions tailored to each marketplace's specific search algorithm.
             </p>
           </div>
         </div>
@@ -119,7 +119,7 @@
 useHead({
   title: 'Portfolio | AlishaVAPro',
   meta: [
-    { name: 'description', content: 'Explore my Amazon and eBay Virtual Assistant case studies and success stories.' }
+    { name: 'description', content: 'Explore my Virtual Assistant case studies across Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy.' }
   ]
 })
 </script>

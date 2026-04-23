@@ -12,13 +12,13 @@
         <!-- Text Content -->
         <div class="space-y-8">
           <div class="inline-block px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 font-medium text-sm mb-4">
-            🚀 Expert Amazon & eBay Virtual Assistant
+            🚀 Multi-Platform E-commerce Virtual Assistant
           </div>
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
             Scale Your <span class="text-transparent bg-clip-text bg-linear-to-r from-amber-400 to-amber-600">E-Commerce</span> Empire Faster
           </h1>
           <p class="text-lg md:text-xl text-gray-200 max-w-xl leading-relaxed">
-            I help sellers dominate Amazon and eBay through expert product hunting, optimized listings, profitable PPC, and complete account management.
+            I help sellers dominate Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy through expert product hunting, optimized listings, and complete account management.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 pt-4">
             <NuxtLink to="/contact">

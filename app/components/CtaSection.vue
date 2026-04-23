@@ -24,7 +24,7 @@
           Ready to Scale Your E-commerce Business?
         </h2>
         <p class="text-xl text-amber-50 mb-10 max-w-2xl mx-auto">
-          Let's discuss your goals and how my Amazon & eBay VA services can help you achieve them faster.
+          Let's discuss your goals and how my expert VA services for Amazon, eBay, Walmart, TikTok Shop, and Etsy can help you achieve them faster.
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
           <NuxtLink to="/contact">

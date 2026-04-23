@@ -25,7 +25,7 @@
               Your Partner in E-commerce Growth
             </h2>
             <p class="text-gray-300 leading-relaxed">
-              With over 4 years of experience navigating the complexities of Amazon and eBay, I've developed a deep understanding of what it takes to succeed in the competitive e-commerce landscape.
+              With over 4 years of experience navigating the complexities of Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy, I've developed a deep understanding of what it takes to succeed in the competitive e-commerce landscape.
             </p>
             <p class="text-gray-300 leading-relaxed">
               My journey started as an independent seller, where I learned the ropes through trial and error. I quickly realized my passion lay in the strategic side of the business—optimizing listings, finding hidden product gems, and engineering profitable PPC campaigns.
@@ -140,7 +140,7 @@
 useHead({
   title: 'About Me | AlishaVAPro',
   meta: [
-    { name: 'description', content: 'Learn about my experience as a dedicated Amazon and eBay Virtual Assistant.' }
+    { name: 'description', content: 'Learn about my experience as a dedicated Virtual Assistant for Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy.' }
   ]
 })
 </script>

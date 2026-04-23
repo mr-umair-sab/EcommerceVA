@@ -12,7 +12,7 @@
           Comprehensive E-Commerce Services
         </h3>
         <p class="text-lg text-gray-400">
-          From product hunting to complete account management, I provide end-to-end solutions for your Amazon and eBay stores.
+          From product hunting to complete account management, I provide end-to-end solutions for Amazon, eBay, Walmart, TikTok Shop, and Etsy.
         </p>
       </div>
 
@@ -60,14 +60,14 @@ const services = [
     features: ['Campaign Setup & Strategy', 'Bid Optimization', 'Negative Keyword Targeting']
   },
   {
-    title: 'eBay Dropshipping & Arbitrage',
-    description: 'Complete management of your eBay store including product sourcing from reliable suppliers, listing creation, and order fulfillment.',
+    title: 'Multi-Platform Sales',
+    description: 'Expert management for eBay, Walmart, Mercari, TikTok Shop, and Etsy stores, including product sourcing and order fulfillment.',
     icon: 'i-heroicons-shopping-bag',
     features: ['Supplier Sourcing', 'Automated Pricing Strategies', 'Customer Service Management']
   },
   {
     title: 'Account Management (A to Z)',
-    description: 'Full-service management of your Seller Central or eBay account so you can focus on scaling your business while I handle the daily operations.',
+    description: 'Full-service management of your Amazon, eBay, or Walmart accounts so you can focus on scaling your business while I handle the daily operations.',
     icon: 'i-heroicons-briefcase',
     features: ['Inventory Management', 'Account Health Monitoring', 'Customer Support & Reviews']
   },

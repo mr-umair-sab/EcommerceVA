@@ -10,9 +10,9 @@
 
 <script setup>
 useHead({
-  title: 'AlishaVAPro - Expert Amazon & eBay Virtual Assistant',
+  title: 'AlishaVAPro - Multi-Platform E-commerce Virtual Assistant',
   meta: [
-    { name: 'description', content: 'Professional Virtual Assistant for Amazon FBA/FBM and eBay. Expertise in product hunting, listing optimization, and PPC.' }
+    { name: 'description', content: 'Professional Virtual Assistant for Amazon, eBay, Walmart, Mercari, TikTok Shop, and Etsy. Expertise in product hunting, listing optimization, and account management.' }
   ]
 })
 </script>
