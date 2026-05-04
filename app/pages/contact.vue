@@ -103,7 +103,7 @@
                   <p class="text-white font-semibold break-all">hello@AlishaVAPro.com</p>
                 </div>
               </a>
-              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-gray-700 flex items-center gap-4 hover:border-green-500/50 transition-colors group">
+              <a href="https://wa.me/923462820605" target="_blank" rel="noopener noreferrer" class="bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-gray-700 flex items-center gap-4 hover:border-green-500/50 transition-colors group">
                 <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center text-green-500 group-hover:bg-green-500 group-hover:text-white transition-colors">
                   <UIcon name="i-mdi-whatsapp" class="w-6 h-6" />
                 </div>

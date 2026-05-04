@@ -59,7 +59,7 @@
             </li>
             <li class="flex items-start">
               <UIcon name="i-heroicons-phone" class="w-5 h-5 mr-3 text-amber-500 shrink-0" />
-              <span>+1 (555) 123-4567</span>
+              <span>+92 346 2820605</span>
             </li>
             <li class="flex items-start">
               <UIcon name="i-heroicons-map-pin" class="w-5 h-5 mr-3 text-amber-500 shrink-0" />

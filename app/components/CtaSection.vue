@@ -37,7 +37,7 @@
               Send a Message
             </UButton>
           </NuxtLink>
-          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/923462820605" target="_blank" rel="noopener noreferrer">
             <UButton size="xl" color="black" variant="outline" class="rounded-full font-bold px-8 py-4 w-full sm:w-auto text-white border-2 border-white hover:bg-white/10 transition-colors">
               <UIcon name="i-mdi-whatsapp" class="w-5 h-5 mr-2" />
               Chat on WhatsApp
