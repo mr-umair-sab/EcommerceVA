@@ -109,7 +109,7 @@
                 </div>
                 <div>
                   <p class="text-sm text-gray-400 font-bold">WhatsApp</p>
-                  <p class="text-white font-semibold whitespace-nowrap">+1 234 567 890</p>
+                  <p class="text-white font-semibold whitespace-nowrap">+92 346 2820605</p>
                 </div>
               </a>
             </div>
