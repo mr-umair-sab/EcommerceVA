@@ -7,6 +7,16 @@
         <div class="absolute right-0 top-0 w-1/2 h-full bg-amber-500 opacity-5 blur-[150px]" />
       </div>
       <div class="container mx-auto max-w-4xl relative z-10 text-center">
+        <!-- Profile Image -->
+        <div class="flex justify-center mb-6">
+          <div class="w-28 h-28 rounded-full border-4 border-amber-500/60 p-1 shadow-xl shadow-amber-500/20">
+            <img
+              :src="profileImg"
+              alt="Alisha - E-Commerce VA"
+              class="w-full h-full rounded-full object-cover object-center"
+            />
+          </div>
+        </div>
         <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
           About <span class="text-amber-500">Me</span>
         </h1>
@@ -55,14 +65,15 @@
           </div>
 
           <div class="order-1 md:order-2 relative">
-            <div class="aspect-4/5 bg-gray-800 rounded-3xl overflow-hidden relative shadow-2xl border border-gray-700">
-              <!-- Placeholder for profile image -->
-              <div class="absolute inset-0 bg-linear-to-tr from-gray-800 to-gray-700 flex items-center justify-center">
-                <UIcon name="i-heroicons-user" class="w-32 h-32 text-gray-600 opacity-50" />
-                <p class="absolute bottom-10 text-center text-white/80 font-medium w-full px-6">
-                  Your Professional Image Here
-                </p>
-              </div>
+            <div class="aspect-4/5 bg-gray-800 rounded-3xl overflow-hidden relative shadow-2xl border border-amber-500/20">
+              <!-- Real Profile Image -->
+              <img
+                :src="profileImg"
+                alt="Alisha - E-Commerce Virtual Assistant"
+                class="absolute inset-0 w-full h-full object-cover object-top"
+              />
+              <!-- Gradient overlay at bottom -->
+              <div class="absolute bottom-0 left-0 right-0 h-1/3 bg-linear-to-t from-gray-900/80 to-transparent" />
             </div>
             <!-- Experience badge -->
             <div class="absolute -bottom-8 -left-8 bg-gray-800 p-6 rounded-2xl shadow-xl border border-gray-700">
@@ -137,6 +148,8 @@
 </template>
 
 <script setup>
+import profileImg from '~/assets/image.jpeg'
+
 useHead({
   title: 'About Me | AlishaVAPro',
   meta: [

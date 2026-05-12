@@ -12,7 +12,7 @@
         <div class="flex justify-center mb-6">
           <div class="w-28 h-28 rounded-full border-4 border-amber-500/60 p-1 shadow-xl shadow-amber-500/20">
             <img
-              src="~/assets/image.jpeg"
+              :src="profileImg"
               alt="Alisha - E-Commerce VA"
               class="w-full h-full rounded-full object-cover object-center"
             />
@@ -133,6 +133,7 @@
 <script setup>
 import { ref, reactive } from 'vue'
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
+import profileImg from '~/assets/image.jpeg'
 
 useHead({
   title: 'Contact | AlishaVAPro',
