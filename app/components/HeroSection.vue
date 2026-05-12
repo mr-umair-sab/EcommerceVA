@@ -53,13 +53,17 @@
 
         <!-- Image/Visual Content -->
         <div class="relative hidden lg:block">
-          <div class="relative w-full aspect-square rounded-full border-2 border-dashed border-gray-700 p-4 animate-[spin_60s_linear_infinite]">
-            <div class="w-full h-full rounded-full border-2 border-gray-600 p-4">
-              <div class="w-full h-full rounded-full bg-linear-to-tr from-gray-800 to-gray-700 relative overflow-hidden shadow-2xl">
-                <!-- Using a generic placeholder image or visual representation -->
-                <div class="absolute inset-0 flex items-center justify-center opacity-20">
-                  <UIcon name="i-heroicons-chart-bar" class="w-64 h-64 text-amber-500" />
-                </div>
+          <div class="relative w-full aspect-square rounded-full border-2 border-dashed border-amber-500/40 p-4 animate-[spin_60s_linear_infinite]">
+            <div class="w-full h-full rounded-full border-2 border-amber-500/20 p-4">
+              <div class="w-full h-full rounded-full relative overflow-hidden shadow-2xl">
+                <!-- Profile Image -->
+                <img
+                  src="~/assets/image.jpeg"
+                  alt="Alisha - E-Commerce Virtual Assistant"
+                  class="w-full h-full object-cover object-center animate-[spin_60s_linear_reverse_infinite]"
+                />
+                <!-- Subtle overlay -->
+                <div class="absolute inset-0 bg-linear-to-tr from-amber-500/10 to-transparent" />
               </div>
             </div>
           </div>

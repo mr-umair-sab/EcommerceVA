@@ -7,6 +7,16 @@
         <div class="absolute left-0 top-0 w-1/3 h-full bg-blue-600 opacity-5 blur-[120px]" />
       </div>
       <div class="container mx-auto max-w-4xl relative z-10 text-center">
+        <!-- Profile Image -->
+        <div class="flex justify-center mb-6">
+          <div class="w-28 h-28 rounded-full border-4 border-amber-500/60 p-1 shadow-xl shadow-amber-500/20">
+            <img
+              src="~/assets/image.jpeg"
+              alt="Alisha - E-Commerce VA"
+              class="w-full h-full rounded-full object-cover object-center"
+            />
+          </div>
+        </div>
         <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
           My <span class="text-amber-500">Portfolio</span>
         </h1>
