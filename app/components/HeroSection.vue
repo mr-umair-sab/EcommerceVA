@@ -12,7 +12,7 @@
         <!-- Text Content -->
         <div class="space-y-8">
           <div class="inline-block px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 font-medium text-sm mb-4">
-            🚀 Amazon, eBay, Walmart, Mercari, TikTok Shop & Etsy VA
+            🚀 I'm virtual assistant on Amazon TikTok shop Walmart Mercari ebay
           </div>
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
             Scale Your <span class="text-transparent bg-clip-text bg-linear-to-r from-amber-400 to-amber-600">E-Commerce</span> Empire Faster
